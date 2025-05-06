@@ -42,15 +42,6 @@ export default async function GroceryPage({ params }: Props) {
     },
   ];
 
-  const handlePurchase = () => {
-    const purchasedItems = JSON.parse(
-      localStorage.getItem("purchasedItems") || "[]"
-    );
-    purchasedItems.push(grocery);
-    localStorage.setItem("purchasedItems", JSON.stringify(purchasedItems));
-    alert("Satın alma işlemi başarılı!");
-  };
-
   return (
     <div className="text-black container mx-auto px-4 py-8">
       <div className="mb-6">
@@ -128,12 +119,7 @@ export default async function GroceryPage({ params }: Props) {
               )}
             </div>
 
-            <button
-              onClick={handlePurchase}
-              className="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700"
-            >
-              Satın Al
-            </button>
+            <OrderButtons grocery={grocery} />
           </div>
         </div>
 
