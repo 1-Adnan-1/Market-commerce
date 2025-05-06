@@ -24,7 +24,7 @@ export default async function Header() {
       <SearchForm />
       <div className="flex gap-3 items-center">
         <Link
-          href="/orders"
+          href="/"
           className="text-lg relative text-gray-700 hover:text-green-600 transition flex items-center gap-2"
         >
           <RiFileList3Line className="text-2xl" />
