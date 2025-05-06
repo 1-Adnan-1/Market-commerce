@@ -1,6 +1,6 @@
 import Cartİtem from "@/app/components/cart/cartItem";
 import CartSummary from "@/app/components/cart/cartSummary";
-import CartSummaary from "@/app/components/cart/cartSummary";
+
 import ClearBtn from "@/app/components/cart/clearBtn";
 import EmptyCart from "@/app/components/cart/emptyCart";
 import { getBasket } from "@/app/service/basket-services";
