@@ -36,8 +36,7 @@ Modern web teknolojileriyle geliştirilmiş, Next.js tabanlı basit ve işlevsel
 Test modunda aşağıdaki bilgilerle başarılı bir şekilde ödeme yapabilirsiniz:
 
 - **Kart Numarası:** `4242 4242 4242 4242`
-- **Tarih:** `12 / 28`
-- **CVC:** `345`
+
 - **E-posta:** Herhangi bir e-posta
 
 Başka bilgilerle işlem yapılamaz ve "başarısız" sayfasına yönlendirilirsiniz.
